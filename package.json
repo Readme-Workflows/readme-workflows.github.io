@@ -9,8 +9,8 @@
   "author": "The Readme-Workflows organisation",
   "license": "",
   "scripts": {
-    "format:check": "prettier --check **/*.js",
-    "format": "prettier --write **/*.js"
+    "format:check": "prettier --check .",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "bootstrap": "^5.0.1"
