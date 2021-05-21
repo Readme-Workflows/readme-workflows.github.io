@@ -1,4 +1,8 @@
-* {
+@import "https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css";
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -9,6 +13,11 @@ body {
   line-height: 1.5;
   color: #c9d1d9;
   background-color: #0d1117;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -28,7 +37,7 @@ h3 {
 }
 
 .container {
-  /*max-width: 1012px;*/
+  max-width: 1012px;
 
   margin-top: 32px;
   margin-bottom: 32px;
@@ -45,4 +54,8 @@ h3 {
   border-top: 1px #e1e4e8 solid;
   padding-top: 16px;
   margin-top: 32px;
+}
+
+[hidden], .hidden {
+  display: none !important;
 }
