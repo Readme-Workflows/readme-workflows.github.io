@@ -1,0 +1,23 @@
+{
+  "name": "readme-workflows.github.io",
+  "version": "1.0.0",
+  "description": "Website of Readme-Workflows organisation",
+  "keywords": [
+    "website",
+    "Readme-Workflows"
+  ],
+  "author": "The Readme-Workflows organisation",
+  "license": "",
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Readme-Workflows/readme-workflows.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Readme-Workflows/readme-workflows.github.io/issues"
+  },
+  "homepage": "https://github.com/Readme-Workflows/readme-workflows.github.io#readme"
+}
