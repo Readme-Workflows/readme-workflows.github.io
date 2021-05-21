@@ -1,47 +1,48 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #C9D1D9;
-    background-color: #0D1117;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #c9d1d9;
+  background-color: #0d1117;
 }
 
 a {
-    color: #0366D6;
+  color: #0366d6;
 }
 
 h1 {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 h2 {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 h3 {
-    font-size: 1.25em;
+  font-size: 1.25em;
 }
 
 .container {
-    /*max-width: 1012px;*/
-    
-    margin-top: 32px;
-    margin-bottom: 32px;
-    
-    margin-right: auto;
-    margin-left: auto;
+  /*max-width: 1012px;*/
+
+  margin-top: 32px;
+  margin-bottom: 32px;
+
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .right {
-    text-align: right;
+  text-align: right;
 }
 
 .border-top {
-    border-top: 1px #E1E4E8 solid;
-    padding-top: 16px;
-    margin-top: 32px;
+  border-top: 1px #e1e4e8 solid;
+  padding-top: 16px;
+  margin-top: 32px;
 }
