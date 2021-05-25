@@ -3,4 +3,4 @@
 
 ## Contributing
 
-You can find the contributing guidelines [here](https://github.com/Readme-Workflows/readme-workflows.github.io/blob/main/CONTRIBUTING.md)
+You can find the contributing guidelines [here](https://github.com/Readme-Workflows/readme-workflows.github.io/blob/main/.github/CONTRIBUTING.md)
