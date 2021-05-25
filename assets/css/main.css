@@ -25,7 +25,9 @@ body {
   background-color: #0d1117;
 }
 
-header, section, footer {
+header,
+section,
+footer {
   padding: 20px 20px;
 }
 
