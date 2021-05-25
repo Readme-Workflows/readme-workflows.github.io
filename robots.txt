@@ -2,3 +2,4 @@ User-agent: *
 Disallow: 
 
 Sitemap: https://readme-workflows.github.io/sitemap.xml
+Sitemap: https://readme-workflows.github.io/recent-activity/sitemap.xml
