@@ -7,8 +7,11 @@
 
 /* Variables */
 :root {
-  --blue: #007bff;
-  --blue-dark: #0056b3;
+  --github-black: #0d1117;
+  --github-grey: #c9d1d9;
+
+  --blue: #0366d6;
+  --blue-dark: #0366d6;
   --white: #fff;
   --border: #e1e4e8;
   --black: #000;
@@ -30,8 +33,8 @@ body {
 }
 
 body.dark {
-  background-color: #0d1117;
-  color: #c9d1d9;
+  color: var(--github-grey);
+  background-color: var(--github-black);
 }
 
 header,
