@@ -1,2 +1,5 @@
 # By default @PuneetGopinath will review pull requests
 *       @PuneetGopinath
+
+# Andre will help Puneet in html files.
+*.html @Andre601
