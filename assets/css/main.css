@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @import "https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css";
+/*!
+ * CSS file for Readme-Workflows org.
+ * Copyright 2021 The Readme-Workflows organisation and Contributors
+ */
 
 /* Variables */
 :root {
@@ -21,8 +25,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   font-size: 16px;
   line-height: 1.5;
-  color: #c9d1d9;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+body.dark {
   background-color: #0d1117;
+  color: #c9d1d9;
 }
 
 header,
