@@ -23,7 +23,6 @@
 *::after {
   box-sizing: border-box;
 }
-
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   font-size: 16px;
@@ -31,18 +30,15 @@ body {
   color: var(--black);
   background-color: var(--white);
 }
-
 body.dark {
   color: var(--github-grey);
   background-color: var(--github-black);
 }
-
 header,
 section,
 footer {
   padding: 20px 20px;
 }
-
 [hidden],
 .hidden {
   display: none !important;
@@ -54,7 +50,7 @@ img {
   height: auto;
 }
 
-/* Links */
+/* Links and Buttons */
 a:link {
   color: var(--blue);
   text-decoration: none;
@@ -64,16 +60,22 @@ a:link:hover {
   color: var(--blue-dark);
   text-decoration: underline;
 }
+.btn {
+  color: var(--black);
+  background-color: var(--white);
+}
+.btn {
+  color: var(--github-grey);
+  background-color: var(--github-black);
+}
 
 /* Headings */
 h1 {
   font-size: 2em;
 }
-
 h2 {
   font-size: 1.5em;
 }
-
 h3 {
   font-size: 1.25em;
 }
@@ -93,23 +95,18 @@ h3 {
 .right {
   text-align: right;
 }
-
 .left {
   text-align: left;
 }
-
 .center {
   text-align: center;
 }
-
 .wide {
   letter-spacing: 4px;
 }
-
 .underline {
   text-decoration: underline;
 }
-
 .strikethrough {
   text-decoration: line-through;
 }
