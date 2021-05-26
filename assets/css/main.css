@@ -64,7 +64,7 @@ a:link:hover {
   color: var(--black);
   background-color: var(--white);
 }
-.btn {
+.dark .btn {
   color: var(--github-grey);
   background-color: var(--github-black);
 }
