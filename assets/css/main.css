@@ -30,7 +30,7 @@ body {
   color: var(--black);
   background-color: var(--white);
 }
-body.dark {
+body.dark, [data-theme="dark"] {
   color: var(--github-grey);
   background-color: var(--github-black);
 }
