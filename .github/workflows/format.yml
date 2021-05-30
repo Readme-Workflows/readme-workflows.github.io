@@ -20,6 +20,12 @@ jobs:
           node-version: "12.x"
       - name: Install dependencies
         run: npm ci
+      - name: Install deps in ./assets
+        run: npm install ./assets --prefix ./assets
+      - name: Fix file location
+        run: |
+          mkdir -p ./assets/js
+          mv ./assets/node_modules/@bkbaalkrshna/switch-theme/src/switch.js ./assets/js/switch.js
       - name: Run format
         run: npm run format
       - name: Check code style
