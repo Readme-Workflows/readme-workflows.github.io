@@ -24,14 +24,12 @@ jobs:
         run: npm install ./assets --prefix ./assets
       - name: Fix file location
         run: |
-          mkdir ./assets/js
+          mkdir -p ./assets/js
           mv ./assets/node_modules/@bkbaalkrshna/switch-theme/src/switch.js ./assets/js/switch.js
       - name: Run format
         run: npm run format
       - name: Check code style
         run: npm run format:check
-      - name: ls assets
-        run: ls assets
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v7
         with:
