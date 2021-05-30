@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Install deps in ./assets
-        run: npm install ./assets
+        run: npm install ./assets --prefix ./assets
       - name: Fix file location
         run: |
           mkdir ./assets/js
