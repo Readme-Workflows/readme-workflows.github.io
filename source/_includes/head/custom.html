@@ -1,0 +1,8 @@
+<link rel="icon" href="https://readme-workflows.github.io/assets/images/favicon.png">
+
+<!-- Include custom buttons JS -->
+{% if page.custom_js %}
+  {% for script in page.custom_js %}
+    <script async defer src="{{ script }}"></script>
+  {% endfor %}
+{% endif %}

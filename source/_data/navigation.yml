@@ -1,0 +1,19 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Recent Activity"
+    url: /recent-activity/
+  - title: "Readme Replacer"
+    url: /readme-replacer/
+  - title: "Readme-Icons"
+    url: "/readme-icons/"
+  - title: "Discord"
+    url: "https://discord.gg/2a9VC4AK6x"
+
+icons:
+  - title: "Icons"
+    children:
+      - title: "Gifs"
+        url: /readme-icons/icons/gifs/
+      - title: "Octicons"
+        url: /readme-icons/icons/octicons/
