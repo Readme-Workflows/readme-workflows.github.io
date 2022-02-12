@@ -1,9 +1,0 @@
-{
-    "name": "null",
-    "version": "1.0.0",
-    "description": "Website of Readme-Workflows organisation",
-    "dependencies": {
-        "@bkbaalkrshna/switch-theme": "^0.1.3"
-    },
-    "private": true
-}
